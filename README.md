@@ -32,3 +32,21 @@ python src/max3sat/random_solve_max3sat.py -i test/max3sat/random_8_20.txt
 ```bash
 python src/max3sat/random_solve_max3sat.py -i test/max3sat/random_8_20.txt -s 42
 ```
+
+### 求解 METRIC-TSP（2-近似算法）
+
+```bash
+python src/metric_tsp/solve_metric_tsp.py -i test/metric_tsp/sample.txt
+```
+
+指定根节点：
+
+```bash
+python src/metric_tsp/solve_metric_tsp.py -i test/metric_tsp/sample.txt -r a
+```
+
+运行自定义测试用例：
+
+```bash
+python src/metric_tsp/solve_metric_tsp.py -i test/metric_tsp/custom.txt
+```
